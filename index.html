@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <section class="calc">
+      <div class="calculator">
+        <input type="text" name="calculator" id="display" readonly />
+        <div class="buttons">
+          <button onclick="limparDisplay()">C</button>
+          <button onclick="acrescentarNoDisplay('7')">7</button>
+          <button onclick="acrescentarNoDisplay('8')">8</button>
+          <button onclick="acrescentarNoDisplay('9')">9</button>
+          <button onclick="acrescentarNoDisplay('+')">+</button>
+          <button onclick="acrescentarNoDisplay('4')">4</button>
+          <button onclick="acrescentarNoDisplay('5')">5</button>
+          <button onclick="acrescentarNoDisplay('6')">6</button>
+          <button onclick="acrescentarNoDisplay('-')">-</button>
+          <button onclick="acrescentarNoDisplay('1')">1</button>
+          <button onclick="acrescentarNoDisplay('2')">2</button>
+          <button onclick="acrescentarNoDisplay('3')">3</button>
+          <button onclick="acrescentarNoDisplay('*')">*</button>
+          <button onclick="acrescentarNoDisplay('0')">0</button>
+          <button onclick="acrescentarNoDisplay('.')">.</button>
+          <button onclick="calcularResultado()">=</button>
+          <button onclick="acrescentarNoDisplay('/')">/</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
