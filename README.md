@@ -1,3 +1,3 @@
 # CalculadoraJs
-<title>Calculadora</title>
---Para conferir basta abrir o index.html
+<p>Para conferir basta abrir o index.html</p>
+-Status: concluido-
